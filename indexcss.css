@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-color: #fff;
+    --text-color: #555;
+    --title-color: #000;
+}
+
+.dark-theme {
+    background-color: #000;
+    color: #999;
+    color: #fff;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    transition: background 0.8s, color 0.8s;
+}
+
+.shop-logo {
+    width: 120px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem5 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.toggle-btn {
+    background: #fe928f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.toggle-btn img {
+    width: 25px;
+    margin-left: 10px;
+}
+
+
+.mc-1 {
+    height: 350px;
+}
+
+.banner-section-bg-container {
+    background-size: cover;
+    height: 90vh;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: white;
+    background-color: #fe928f;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+.line {
+    color: black;
+    font-size: 2px;
+}
+
+
+.wcu-section-heading {
+    color: #fe928f;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #4e544e;
+    font-family: "Sans-Serif";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fe928f;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+}
+
+.wcu-card-title {
+    color: #202b20;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.wcu-card-two {
+    height: 40px;
+    width: 100px;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Caveat";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.wcu-more-details {
+    background-color: #fe928f;
+    border-radius: 10px;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.wcu-more-details-h {
+    padding: 4px;
+}
+
+.offers {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 900px;
+}
+
+.card {
+    width: 230px;
+    background-color: white;
+    padding: 16px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.card-background-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.shop-heading {
+    color: #fe928f;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.shop-bg-image-1 {
+    background-image: url("https://assets.ajio.com/medias/sys_master/root/20220324/W4nG/623c6fdef997dd03e22cd524/-473Wx593H-463775643-blue-MODEL6.jpg");
+}
+
+.shop-bg-image-2 {
+    background-image: url("https://assets.ajio.com/medias/sys_master/root/20220511/irm1/627b43c6f997dd03e2a557c4/-473Wx593H-461340286-multi-MODEL.jpg");
+}
+
+.shop-bg-image-3 {
+    background-image: url("https://assets.ajio.com/medias/sys_master/root/20220817/TsV5/62fd2719aeb269176180dceb/-473Wx593H-441139799-khaki-MODEL.jpg");
+}
+
+.shop-bg-image-4 {
+    background-image: url("https://assets.ajio.com/medias/sys_master/root/20220819/JvZZ/62fe8572aeb269176183f0dd/-473Wx593H-461124442-black-MODEL.jpg");
+}
+
+.shop-bg-image-5 {
+    background-image: url("https://assets.ajio.com/medias/sys_master/root/20220905/Ci6k/631636cff997dd1f8ddfa0d8/-473Wx593H-441142774-blue-MODEL.jpg");
+}
+
+.shop-bg-image-6 {
+    background-image: url("https://assets.ajio.com/medias/sys_master/root/20220114/RsO0/61e19d9ff997dd6623223518/-473Wx593H-440971924-olive-MODEL.jpg");
+}
+
+.card-heading {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    padding: 1px;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #594d6d;
+}
+
+.badge {
+    background-color: #f7941d;
+    color: white;
+    padding-top: 4px;
+    padding-right: 15px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    font-size: 12px;
+    border-radius: 16px;
+    margin-right: 8px;
+    margin-bottom: 6px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fe928f;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+
+.price {
+    font-weight: 700;
+}
+
+.card-footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bag-icon {
+    color: white;
+    font-size: 22px;
+}
+
+
+
+.delivery-and-payment-section {
+    background-color: white;
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+}
+
+.delivery-and-payment-section-heading {
+    color: #fe928f;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.app-details-container {
+    background-color: white;
+}
+
+.app-heading {
+    font-size: 40px;
+    color: #fe928f;
+}
+
+.mobile-image {
+    height: 400px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.download-option-image {
+    height: 35px;
+    width: 80px;
+    margin: 5px;
+}
+
+.footer-section-heading {
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: black;
+}
+
+.footer-section-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-section-list-item {
+    color: #4a4a43;
+    font-family: "Roboto";
+    margin-bottom: 5px;
+}
+
+.ecommerce-footer-section-icon-container {
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    padding-top: 12px;
+    padding-bottom: 35px;
+    padding-right: 30px;
+    padding-left: 15px;
+    background-color: #152c3e;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.icon {
+    color: white;
+    font-size: 15px;
+}
+
+.hr-line {
+    background-color: black;
+}
+
+.shop-footer-section-copyright {
+    color: black;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.copyright-icon {
+    color: black;
+    font-size: 15px;
+}
+
+.ajio-logo {
+    height: 40px;
+    width: 120px;
+}
